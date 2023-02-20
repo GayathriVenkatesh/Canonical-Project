@@ -7,4 +7,4 @@ app.js: It contains the code to fetch data from the API and render the content i
 
 ### Output 
 
-![output](output.png "Output")
+![output](Output.png "Output")

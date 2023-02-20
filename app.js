@@ -29,7 +29,7 @@ fetch('https://people.canonical.com/~anthonydillon/wp-json/wp/v2/posts.json')
                         <a href="${post.link}">${post.title.rendered} </a>
                     </h4>
                     <p>
-                        <i>By <a href="${post._links.author[0].href}">${post._embedded.author[0]?.name}</a> on ${day} ${month} ${year}</i>
+                        <i>By <a href="${post._embedded.author[0]?.link}">${post._embedded.author[0]?.name}</a> on ${day} ${month} ${year}</i>
                     </p>
                 </div>
                 <hr class="u-no-margin--bottom">
